@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+h2{
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 200px;
+    margin: 10px;
+    border: 5px solid black;
+    background-color: grey;
+}
+
+.box1 {
+    max-height: 100px;
+}
+.box1 img{
+    width: 200px;
+    height: 100px;
+}
+
+.box2 {
+    max-height: auto;
+}
+.box2 img{
+    width: 200px;
+    height: 200px;
+}
+
+.box3 {
+    max-height: 300px;
+}
+.box3 img{
+    width: 200px;
+    height: 300px;
+}
+
+p {
+    text-align: center;
+}
